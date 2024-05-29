@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <title>Formulário de cadastro</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <link rel="stylesheet"   href="../../static/assets/css/style_filmes.css">
+    <link rel="stylesheet"   href="../../static/assets/css/style_menu.css">
+
+</head>
+<body>
+    <div class="fullscreen-menu-container js-menu-container">
+        <a class="menu-button js-menu-close">
+            <div class="menu-icon is-active">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </a>
+
+        <div class="fullscreen-menu">
+
+            <div class="fullscreen-menu__image-container"></div>
+
+            <h1 class="fullscreen-menu__title">Catálogo de entretenimento.</h1>
+
+            <nav class="fullscreen-menu__nav">
+                <ul>
+
+                    <li>
+                        <a href="#">Filmes</a>
+                    </li>
+
+                    <li>
+                        <a href="#">Animes</a>
+                    </li>
+
+                    <li>
+                        <a href="#">Résumé</a>
+                    </li>
+
+                    <li>
+                        <a href="#">Blog</a>
+                    </li>
+
+                    <li>
+                        <a href="#">Contact</a>
+                    </li>
+
+                </ul>
+            </nav>
+
+            <a target="_blank" href="https://twitter.com/matchboxhero10" class="social-button--twitter">
+                <i class="icon--twitter"></i>
+            </a>
+
+            <a target="_blank" href="#" class="social-button--facebook">
+                <i class="icon--facebook"></i>
+            </a>
+
+            <a target="_blank" href="#" class="social-button--pintrest">
+                <i class="icon--pintrest"></i>
+            </a>
+
+        </div>
+
+    </div>
+
+    <article>
+        <aside class="card__image-container">
+            <a class="menu-button js-menu-button">
+                <div class="menu-icon">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </a>
+        </aside>
+    </article>
+
+    <!-- <table id="filmes" class="table">
+        <thead>
+            <tr>
+                <td>Nome do filme</td>
+                <td>Sinopse</td>
+                <td>Cadastrar filme</td>
+            </tr>
+        </thead>
+        <tbody id="body_table">
+
+        </tbody>
+        
+    </table> -->
+    
+    <div class="container">
+        <div class="row row-cols-1 row-cols-md-3 g-4" >
+            <div class="card-group" id="card_filmes"></div>
+        </div>             
+      </div>
+    
+
+    <script src="../../static/assets/js/filmes/listagem-filmes.js"></script>
+
+</body>
+</html>
